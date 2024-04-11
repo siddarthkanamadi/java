@@ -1,5 +1,5 @@
 package fourthsem;
-
+//multipile inheritance
 interface item {
     int no=10;
     String itemname="computer";
