@@ -1,5 +1,4 @@
 package fourthsem;
-
 public class animal07 {
     void eat(){
         System.out.println("eating");
@@ -8,6 +7,7 @@ public class animal07 {
 interface wildanimal{
     void livingplace();
 }
+
 class elephant extends animal07 implements wildanimal{
     void livingplace(){
         System.out.println("it lives in forest");
@@ -19,7 +19,8 @@ class elephant extends animal07 implements wildanimal{
 class elephantdemo{
     public static void main(String[] args) {
         elephant e=new elephant();
-        e.livingplace();
+        e.eat();
+        //e.livingplace();
         e.feauters();
     }
 }

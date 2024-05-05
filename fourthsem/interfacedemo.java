@@ -14,7 +14,7 @@ class items implements item{
     }
 
 }
-class interfacedemo{
+public class interfacedemo{
     public static void main(String[] args) {
         items i=new items();
         i.show();
